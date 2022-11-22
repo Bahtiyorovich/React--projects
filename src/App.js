@@ -1,12 +1,13 @@
-import './App.css'
-
+import './styles/app-style.css'
+import React from 'react'
+import TableList from './components/TableList';
 
 
 function App() {
   return (
-    <>
-      Hello world
-    </>
+    <div className="app-style">
+      <TableList/>
+    </div>
   );
 }
 
